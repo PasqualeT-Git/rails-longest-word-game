@@ -1,0 +1,48 @@
+// Place all the styles related to the Games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  background-color: lightskyblue;
+  margin: 40px 332px;
+  color: white;
+  padding: 8px;
+}
+
+.shadow {
+  box-shadow: 2px 3px 6px grey;
+  text-shadow: 2px 3px 6px grey;
+}
+
+#words-game {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#words-game li {
+  background-color: lightskyblue;
+  padding: 24px;
+  border: 1px solid;
+  font-size: 32px;
+  color: white;
+  border-radius: 24px;
+  border: none;
+}
+
+#play-input {
+  padding: 5px 158px;
+  margin: 80px 0px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid darkgray;
+}
+
+#play-btn {
+  padding: 5px 15px;
+}
